@@ -11,21 +11,21 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="min-h-screen bg-amber-50">
-      <Header />
-      <Hero />
-      <BestSellers />
-      <WhyChooseUs />
-      <About />
-      <MenuPreview />
-      <Testimonials />
-      <Gallery />
-      <SpecialOffers />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="min-h-screen bg-amber-50">
+            <Header />
+            <Hero />
+            <BestSellers />
+            <WhyChooseUs />
+            <About />
+            <MenuPreview />
+            <Testimonials />
+            <Gallery />
+            <SpecialOffers />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
